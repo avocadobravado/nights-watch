@@ -5,11 +5,104 @@
  *
  * Made By MaterializeCSS.com
  */
+.btn {
+  background-color: #87bcc2;
+}
+.btn:hover {
+  background-color: #4c6a6e;
+}
+/*NAVIGATION AREA*/
 
+.nav-wrapper img {
+  height: 50px;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
+
+@media only screen and (max-width : 500px) {
+  nav img {
+      width: 18%;
+  }
+  #logo-container {
+    font-size: 18px;
+  }
+}
+
+  /*SIDE NAV // MOBILE NAV */
+
+nav .button-collapse {
+  float: right;
+}
+.side-nav {
+  background-image: url('../img/carousel01.jpg');
+  background-size: cover;
+}
+
+.side-nav li {
+  margin-top: 2em;
+}
+
+.side-nav li > a {
+  color: #fff;
+  font-size: 2.5em;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+
+/* TESTIMONIAL AREA*/
+
+.icon img {
+  max-width: 100%;
+  border-radius: 100%;
+  border: 10px outset rgba(135, 188, 194, 1);
+}
+
+.icon-block {
+  margin: 1em;
+}
+.vow h4 {
+  text-shadow: 6px 6px 8px #333;
+}
+
+/*APPLY NOW SECTION*/
+ /*input.validate:after {
+   color: red;
+ }*/
+
+
+
+ /*FOOTER SECTION*/
+
+ .page-footer {
+   background-color: #87bcc2;
+ }
+
+@media only screen and (max-width : 975px) {
+  .parallax-container h4 {
+      font-size: 2em;
+  }
+}
+
+@media only screen and (max-width : 675px) {
+  .parallax-container h4 {
+      font-size: 1.75em;
+  }
+}
+
+@media only screen and (max-width : 475px) {
+  .parallax-container h4 {
+      font-size: 1.25em;
+  }
+}
+@media only screen and (max-width : 425px) {
+  .parallax-container h4 {
+      font-size: 1em;
+  }
+}
+/*THE DEFAULT STYLES FROM THIS TEMPLATE*/
+
 
 p {
   line-height: 2rem;
@@ -22,7 +115,7 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  height: 50vh;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
